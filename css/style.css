@@ -9,24 +9,25 @@ h2 {
 }
 
 .list .complete_list {
- 	display: block;
+
 }
 
 ul {
 	padding: 0;
+	display: inline-block;
  	list-style-image: url('../checkbox.jpg');
 }
 
 @media (min-width: 600px) {
 
 	body {
-		...
+		font-size: 1em;
 	}
 
 }
 
 @media (min-width: 1000px){
 	body {
-		...
+		font-size: 1em;
 	}
 }
