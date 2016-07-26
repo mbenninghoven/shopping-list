@@ -10,25 +10,19 @@
 </head>
 <body>
 	<h1>Shopping List</h1>
-		<p>Type in an item you would like to add to the list. Check the box once the item has been obtained. Hit the 'x' to completely remove the item from the list. You can also clear all items by hitting 'clear'.</p>
-			<form class="textbox">
-				<input type="text" placeholder="enter an item" required="true" autocomplete="off"/>
+		<p>Type in an item you would like to add to the list. Check the box once the item has been obtained. Hit the 'x' to completely remove the item from the list. You can also clear all items by hitting 'clear' or double click to remove a single item.</p>
+			<form class="myForm">
+				<input type="text" id="textbox" placeholder="enter an item and select 'add'" required="true" autocomplete="off"></input>
+				<button type="submit" class="button" id="enterbutton">Add</button>
 			</form>
-			<button class="clear">Clear List</button>
-					<h2>Need</h2>
-						<ul class="list">
-							<li>Bananas</li>
-							<li>Apples</li>
-							<li>Detergent</li>
-							<li>Toothpaste</li>
-						</ul>
-					<h2>Completed</h2>
-						<ul class="complete_list">
-						<i class="fa fa-check" aria-hidden="true"></i>
-							<li>Bread</li>
-							<li>Almonds</li>
-							<li>Hummus</li> 
-							<li>Beer</li>
-						</ul>
+			<form class="Form1">
+			<button type="submit" class="clear">Clear List</button>
+			</form>
+			<h2>Items Needed</h2>
+
+			<ul class="list" id="li_list"></ul>
+
+			<script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

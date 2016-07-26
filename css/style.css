@@ -1,9 +1,8 @@
 body {
 	font-family: geneva;
 	text-align: center;
-	color: #FFFFFF;
 	font-size: 14px;
-	background-image:url('https://images.unsplash.com/photo-1463490093487-b0ffe9b8e140?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=96ea1002919c7bc9ba3cdaea99959e64');
+	/*background-image:url('https://images.unsplash.com/photo-1463490093487-b0ffe9b8e140?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=96ea1002919c7bc9ba3cdaea99959e64');*/
 }
 
 p {
@@ -15,18 +14,31 @@ p {
 }
 
 h1 {
-	border-style: solid;
+	border-style: none;
 }
 
 .list .complete_list {
  	display: block;
 }
 
+li {
+	padding: 10px;
+	text-decoration: underline;
+}
+
 ul {
 	padding: 0;
 	display: inline-block;
-	list-style: none;
 	margin: 0;
+}
+
+#textbox {
+	width: 300px;
+
+}
+
+.Form1 {
+	padding: 15px;
 }
 
 @media (min-width: 600px) {
