@@ -5,18 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Shopping List</title>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<h1>Shopping List</h1>
-		<p>Type in an item you would like to add to the list. Check the box once the item has been obtained. Hit the 'x' to completely remove the item. You can also clear all items by hitting 'Clear List'.</p>
+		<p>Enter items to your shopping list. <br/> Click the trash can to remove a single item. <br/>Clear all items by hitting 'clear all'.</p>
 			<form class="myForm">
 				<input type="text" class="textbox" placeholder="enter an item and select 'add'" required="true" autocomplete="off"></input>
-				<button type="submit" class="button">Add</button>
+				<button type="submit" class="button">add</button>
 			</form>
 			<form class="Form1">
-			<button type="submit" class="clear">Clear List</button>
+			<button type="submit" class="clear">clear all</button>
 			</form>
 			
 			<ul class="list" id="li_list">

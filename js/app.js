@@ -13,6 +13,9 @@ $(document).ready(function(){
 
 	$('ul').on('click', '.x', function(e){
 			$(this).closest('li').remove();
-			console.log('this worked');
+	});
+
+	$('ul').on('click', '.checkbox', function(e){
+		$(this).closest('li').toggleClass('selected');
 	});
 });
